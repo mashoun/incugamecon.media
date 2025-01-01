@@ -1,5 +1,5 @@
 <template>
-    <section class="container my-5">
+    <section class="container my-5 overflow-hidden">
         <!-- <div class="row justify-content-center g-3" v-if="preview().length == 0" >
             <div class="col-12">
                 <p class="text-igc-grey font-monospace text-center">Page Not Found</p>

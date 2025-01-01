@@ -15,7 +15,7 @@ export default {
         waitAndTurnOffLoading() {
             setTimeout(() => {
                 this.isLoading = false;
-            }, 50);
+            }, 100);
         }
     }
 }

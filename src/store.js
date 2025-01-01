@@ -21,22 +21,27 @@ export default {
         {
             name: 'Home',
             url: '/',
+            isActive: true
         },
         {
             name: 'Projects',
             url: '/projects',
+            isActive: false
         },
         {
             name: 'Services',
             url: '/services',
+            isActive: false
         },
         {
             name: 'Our Team',
             url: '/team',
+            isActive: false
         },
         {
             name: 'Contact',
             url: '/contact',
+            isActive: false
         },
     ],
 

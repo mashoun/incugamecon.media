@@ -6,7 +6,7 @@
             </figure>
         </section>
         <nav class="d-none d-lg-flex align-items-center justify-content-center gap-4">
-            <router-link :to="node.url" v-for="node in store.navLinks" >{{ node.name }}</router-link>
+            <a class="navi-link" :class="{'navi-link-active': isActivePage(node.url), 'navi-link':!isActivePage(node.url)}" :href="node.url" v-for="node in store.navLinks" >{{ node.name }}</a>
         </nav>
         <div class="d-lg-none d-flex align-items-center" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar" aria-controls="sidebar">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" fill="currentColor" class="bi bi-list"
@@ -44,6 +44,11 @@ export default {
         return {
             store
         }
-    }
+    },
+    methods:{
+        isActivePage(path) {
+            return location.pathname === path
+        }
+    },
 }
 </script>
