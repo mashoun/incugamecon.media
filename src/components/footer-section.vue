@@ -4,9 +4,9 @@
             <div class="row">
                 <div class="col-12">
                     <section class="d-flex flex-column gap-2">
-                        <figure class="ratio ratio-1x1" :style="`width: ${store.logo.size};`">
+                        <!-- <figure class="ratio ratio-1x1" :style="`width: ${store.logo.size};`">
                             <img :src="store.logo.src" alt="logo" class="object-fit-cover">
-                        </figure>
+                        </figure> -->
                         <h1 class="fs-1 text-igc-light font-monti fw-strong text-uppercase">{{ store.title }}</h1>
                         <p class="text-igc-light font-inter fs-small">{{ store.headline }}</p>
                         <div class="d-flex align-items-center gap-2 my-3 flex-wrap">

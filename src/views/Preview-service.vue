@@ -40,12 +40,12 @@
                     <swiper-container id="check-also-swiper" effect="cards" grab-cursor="true" loop="true">
                         <swiper-slide v-for="node in store.services">
                             <a :href="`/services/${node.id}`">
-                                <section class="p-3 py-5 bg-igc-light d-flex justify-content-between align-items-center gap-3 rounded-md">
-                                    <div class="ratio ratio-1x1" style="width: 200px;">
+                                <section class="p-3 py-5 bg-igc-light d-flex flex-column justify-content-between align-items-center gap-3 rounded-md">
+                                    <div class="ratio ratio-1x1" style="width: 100px;">
                                         <img :src="node.icon" alt="avatar image" class="rounded object-fit-cover">
                                     </div>
                                     <div class="d-flex flex-column gap-2 w-100">
-                                        <strong class="font-monti text-igc-100 fs-4 text-uppercase">
+                                        <strong class="font-monti text-igc-100 fs-small text-uppercase text-center">
                                             {{ node.title }}
                                         </strong>
                                     </div>

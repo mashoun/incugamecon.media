@@ -1,30 +1,46 @@
 export default {
     version: '1.0.0',
+
     logo: {
-        src:'/logo.png',
-        size:'50px'
+        src: '/logo.png',
+        size: '50px'
     },
+
     title: 'IncuGameCon',
+
     headline: 'Our mission is to transform ideas into captivating games and become the leading hub for gaming collaboration.',
-    navLinks:[
+
+    contact: {
+        email: 'info@incugamecon.media',
+        number: '00971547443749',
+        linkedin: '',
+        instagram: ''
+    },
+
+    navLinks: [
         {
             name: 'Home',
-            url:'/',
+            url: '/',
         },
         {
             name: 'Projects',
-            url:'/projects',
+            url: '/projects',
         },
         {
             name: 'Services',
-            url:'/services',
+            url: '/services',
         },
         {
             name: 'Our Team',
-            url:'/team',
+            url: '/team',
+        },
+        {
+            name: 'Contact',
+            url: '/contact',
         },
     ],
-    hero:{
+
+    hero: {
         title: 'INCUGAMECON',
         description: `Welcome to IncuGameCon, where we guide startups and investors through the
         gaming industry with innovative consulting and development. Our mission is to transform
@@ -35,50 +51,52 @@ export default {
         games. Join us to make a lasting impact in the gaming world.`
 
     },
-    footerLinks:[
+
+    footerLinks: [
         {
             name: 'Home Page',
-            url:'/',
+            url: '/',
         },
         {
             name: 'Projects',
-            url:'/projects',
+            url: '/projects',
         },
         {
             name: 'Services',
-            url:'/services',
+            url: '/services',
         },
         {
             name: 'Our Team',
-            url:'/team',
+            url: '/team',
         },
         {
             name: 'Instagram',
-            url:'/',
+            url: '/',
         },
         {
             name: 'Facebook',
-            url:'/',
+            url: '/',
         },
         {
             name: 'LinkedIn',
-            url:'/',
+            url: '/',
         },
         {
             name: 'Email',
-            url:'/',
+            url: '/',
         },
         {
             name: 'Phone Number',
-            url:'/',
+            url: '/',
         },
     ],
+
     services: [
         {
             id: 'xH1A65Vx',
-            icon: '/gear.png',
+            icon: '/services/gear.png',
             title: 'Innovative Game Concept Development',
-            offerings:[
+            offerings: [
                 'Ideation workshops to generate and refine innovative game ideas.',
                 'Early-stage prototype development to gather feedback and iterate on game designs.',
                 'Feasibility studies to evaluate the potential success and market fit of new concepts',
@@ -87,9 +105,9 @@ export default {
         },
         {
             id: 'd1ENEQLW',
-            icon: '/start.png',
+            icon: '/services/start.png',
             title: 'Full Service Game Development',
-            offerings:[
+            offerings: [
                 'Cross-platform development capabilities for PC, consoles, and mobile devices.',
                 'Integration of cutting-edge graphics and audio technologies.',
                 'Agile project management to keep development on schedule and within budget.',
@@ -98,9 +116,9 @@ export default {
         },
         {
             id: 'RGe9eij3',
-            icon: '/rocket.png',
+            icon: '/services/rocket.png',
             title: 'Stratigic Marketing and Launch Support',
-            offerings:[
+            offerings: [
                 'Market research & analysis to identify target demographics and optimal launch strategies.',
                 'Branding & promotional campaigns to build anticipation and awareness.',
                 'Launch event planning & execution maximize exposure and player acquisition.',
@@ -109,9 +127,9 @@ export default {
         },
         {
             id: 'wpqQTGRw',
-            icon: '/refresh.png',
+            icon: '/services/refresh.png',
             title: 'Ongoing Support and Evolution',
-            offerings:[
+            offerings: [
                 'Continuous content development and updates to keep the game relevant.',
                 'Community management to engage with players and build a loyal fan-base.',
                 'Performance analytics and optimization to ensure the best player experience.',
@@ -120,9 +138,9 @@ export default {
         },
         {
             id: 'wR8ptSJC',
-            icon: '/design.png',
+            icon: '/services/design.png',
             title: 'User-Centric Design and Accessibility',
-            offerings:[
+            offerings: [
                 'Accessibility consulting to ensure games meet global accessibility standards',
                 'UX/UI design services to create intuitive and appealing game interfaces.',
                 'Play-testing and usability testing to refine game-play mechanics and interfaces.',
@@ -131,9 +149,9 @@ export default {
         },
         {
             id: '9wQjrxvR',
-            icon: '/dollar-lamp.png',
+            icon: '/services/dollar-lamp.png',
             title: 'Monetization Strategy Development',
-            offerings:[
+            offerings: [
                 'In-depth analysis of potential revenue models ( freemium, subscriptions, micro-transactions).',
                 'Development of in-game economies and reward systems that drive engagement.',
                 'Consultation on ethical monetization practices that respect player satisfaction.',
@@ -141,71 +159,73 @@ export default {
             description: 'Crafting tailored monetization strategies that align with user expectations and enhance revenue generation without compromising the gaming experience.'
         },
     ],
+
     projects: [
+        // {
+        //     id: '1JdNEUyk',
+        //     index: 0,
+        //     title: 'PROJEKT ROGUE',
+        //     description: 'A dark fantasy RPG where players become the first Ascended of the Forsaken races—undead, orcs, elves, and more—leading a rebellion to reclaim their lands and legacy from the humans who once rose to godlike power and drove them into the shadows.',
+        //     thumbnailSrc: '',
+        //     isActive: true
+        // },
         {
-            id: '1JdNEUyk',
+            id: 'zAULCD3B',
             index: 0,
-            title: 'PROJEKT ROGUE',
-            description: 'A dark fantasy RPG where players become the first Ascended of the Forsaken races—undead, orcs, elves, and more—leading a rebellion to reclaim their lands and legacy from the humans who once rose to godlike power and drove them into the shadows.',
-            thumbnailSrc: 'https://picsum.photos/1080/1920',
+            title: 'SANDS OF TIME - Game',
+            description: 'A multiplayer online arena looter shooter game with both PVP and PVE elements. The game is set in a fictionalized version of the Arabian Peninsula where players can traverse a challenging sci-fi open-world map, progress through various quests and objectives, customize and enhance their characters, and engage in a wide variety of combat against a diverse set of enemies. Choose to party up with your friends, or dive in solo as you fight other players and AI in a hostile environment.',
+            thumbnailSrc: '/projects/sandsgame.jpg',
             isActive: true
         },
         {
-            id: 'zAULCD3B',
-            index: 1,
-            title: 'SANDS OF TIME - Game',
-            description: 'A multiplayer online arena looter shooter game with both PVP and PVE elements. The game is set in a fictionalized version of the Arabian Peninsula where players can traverse a challenging sci-fi open-world map, progress through various quests and objectives, customize and enhance their characters, and engage in a wide variety of combat against a diverse set of enemies. Choose to party up with your friends, or dive in solo as you fight other players and AI in a hostile environment.',
-            thumbnailSrc: 'https://picsum.photos/1080/1921',
-            isActive: false
-        },
-        {
             id: 'GfSZKj2h',
-            index: 2,
+            index: 1,
             title: 'SANDS OF TIME - SERIES',
             description: 'After a tragic scientific experiment shatters the fundamental fabric of time and space, the Arabian Peninsula emerges as the epicentre of a shattered world governed by weird, post-quantum physics that resembles old magic. This breach resurrects dead empires and marginalised communities from forgotten timelines, each with incredible powers once thought mythological. Aetherium, a powerful energy source capable of altering history, sits at the centre of the region, and these newly emboldened factions are fighting for control of it. In a world trapped between its past ideals and its future prospects, everyone stands to win or lose.',
-            thumbnailSrc: 'https://picsum.photos/1080/1922',
+            thumbnailSrc: '/projects/sandsshow.jpg',
             isActive: false
         },
         {
             id: 'GkCTRjhf',
-            index: 3,
+            index: 2,
             title: 'S GAMER',
             description: 'S gamer is a show for anyone aspiring to achieve gaming literacy, as well as seasoned gamers that want to stay updated with the recent thrills of the fast evolving gaming world. ',
-            thumbnailSrc: 'https://picsum.photos/1080/1923',
+            thumbnailSrc: '/projects/sgamer.png',
             isActive: false
         },
         {
             id: '4NSNYYr7z',
-            index: 4,
+            index: 3,
             title: 'THE SHIMMERING SCEPTER SAGA',
             description: `In the enchanted realm of Pixelandia, colors vanished overnight when the nefarious wizard Voxel stole the Shimmering Scepter, plunging the world into monochrome despair. Now, it's up to Pixelio, a sprightly hero with a heart full of courage, to navigate treacherous terrains and perilous puzzles to restore the lost vibrancy. Join him on this daring quest to defeat Voxel and bring back the joy and colors to Pixelandia, unraveling mysteries that hint at further adventures.`,
-            thumbnailSrc: 'https://picsum.photos/1080/1924',
+            thumbnailSrc: '/projects/saga.jpg',
             isActive: false
         },
         {
             id: '99vPZ1U5',
-            index: 5,
+            index: 4,
             title: `FORTUNE'S FAVOR`,
             description: `In a world where the thrill of speed and the taste of victory are the only things that matter, a new kind of competition has emerged, fueled by the eccentric billionaire Maximus Fortune. This is the world of "Fortune’s Favor", a high-stakes, high-speed deathmatch where only the bravest, the boldest, and the fastest survive.`,
-            thumbnailSrc: 'https://picsum.photos/1080/1924',
+            thumbnailSrc: '/projects/fortunes.jpg',
             isActive: false
         },
         {
             id: 'pa2AqCBB',
-            index: 6,
+            index: 5,
             title: `RETAIL RIVALS`,
             description: `Dive into an immersive online arcade-style virtual world where players engage in a multitude of game modes, battling it out to secure exclusive coupons for their favorite stores! Set within a bustling mall, interact with quirky vendors, each with their own unique backstory and missions for you. Navigate the mall, undertake quests, and challenge others in exhilarating player-versus-player game modes. Climb the leaderboards to unlock seasonal rewards. As you play, not only do you earn valuable coupons and in-game rewards, but you'll also unravel the rich tapestry of tales that the mall and its vendors have to offer.`,
-            thumbnailSrc: 'https://picsum.photos/1080/1924',
+            thumbnailSrc: '/projects/mall.jpg',
             isActive: false
         },
         // {
         //     id: '',
         //     title: '',
         //     description: ``,
-        //     thumbnailSrc: 'https://picsum.photos/1080/1924',
+        //     thumbnailSrc: '',
         //     isActive: false
         // },
     ],
+
     team: [
         {
             id: '1',
@@ -244,7 +264,7 @@ export default {
         },
         {
             id: '6',
-            avatarSrc: 'romel.jpg',
+            avatarSrc: '/romel.jpg',
             name: 'Romel',
             headline: 'Lead Game Producer',
             isCover: false
