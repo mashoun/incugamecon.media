@@ -6,7 +6,7 @@
             </figure>
         </section>
         <nav class="d-none d-lg-flex align-items-center justify-content-center gap-4">
-            <a :href="node.url" v-for="node in store.navLinks">{{ node.name }}</a>
+            <router-link :to="node.url" v-for="node in store.navLinks" >{{ node.name }}</router-link>
         </nav>
         <div class="d-lg-none d-flex align-items-center" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar" aria-controls="sidebar">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" fill="currentColor" class="bi bi-list"

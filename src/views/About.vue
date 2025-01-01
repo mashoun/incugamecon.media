@@ -1,3 +1,0 @@
-<template>
-    About page
-</template>

@@ -1,20 +1,9 @@
 <template>
-    <section class="container">
-        <div class="row">
-            <div class="col-12 col-lg-4">
-                <aside>
-                    <figure class="ratio ratio-1x1"><img src="" alt="" class="object-fit-cover rounded"></figure>
-                </aside>
-            </div>
-            <div class="col-12 col-lg-8">
-                
-            </div>
-
-        </div>
-    </section>
+    <services-section></services-section>
 </template>
 <script>
+import servicesSection from '../components/services-section.vue'
 export default {
-
+    components: { servicesSection }
 }
 </script>

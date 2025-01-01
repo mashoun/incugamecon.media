@@ -38,48 +38,44 @@ export default {
     footerLinks:[
         {
             name: 'Home Page',
-            url:'',
-        },
-        {
-            name: 'About Us',
-            url:'',
+            url:'/',
         },
         {
             name: 'Projects',
-            url:'',
+            url:'/projects',
         },
         {
             name: 'Services',
-            url:'',
+            url:'/services',
         },
         {
             name: 'Our Team',
-            url:'',
+            url:'/team',
         },
         {
             name: 'Instagram',
-            url:'',
+            url:'/',
         },
         {
             name: 'Facebook',
-            url:'',
+            url:'/',
         },
         {
             name: 'LinkedIn',
-            url:'',
+            url:'/',
         },
         {
             name: 'Email',
-            url:'',
+            url:'/',
         },
         {
             name: 'Phone Number',
-            url:'',
+            url:'/',
         },
     ],
     services: [
         {
-            id: '1',
+            id: 'xH1A65Vx',
             icon: '/gear.png',
             title: 'Innovative Game Concept Development',
             offerings:[
@@ -90,7 +86,7 @@ export default {
             description: 'A service dedicated to the brainstorming and refinement of unique game concepts that push creative boundaries and appeal to diverse audiences.'
         },
         {
-            id: '2',
+            id: 'd1ENEQLW',
             icon: '/start.png',
             title: 'Full Service Game Development',
             offerings:[
@@ -101,7 +97,7 @@ export default {
             description: 'Offering a complete suite of development services, from initial design through coding, testing, and final polishing, ensuring high-quality game production.'
         },
         {
-            id: '3',
+            id: 'RGe9eij3',
             icon: '/rocket.png',
             title: 'Stratigic Marketing and Launch Support',
             offerings:[
@@ -112,7 +108,7 @@ export default {
             description: 'Focusing on creating accessible and engaging user experiences, ensuring that games are inclusive and enjoyable for all players.'
         },
         {
-            id: '4',
+            id: 'wpqQTGRw',
             icon: '/refresh.png',
             title: 'Ongoing Support and Evolution',
             offerings:[
@@ -123,7 +119,7 @@ export default {
             description: 'Comprehensive marketing and launch services to ensure a successful market entry and strong initial player engagement.'
         },
         {
-            id: '5',
+            id: 'wR8ptSJC',
             icon: '/design.png',
             title: 'User-Centric Design and Accessibility',
             offerings:[
@@ -134,8 +130,8 @@ export default {
             description: 'Post-launch services to maintain and enhance the game based on player feedback and market dynamics.'
         },
         {
-            id: '6',
-            icon: 'dollar-lamp.png',
+            id: '9wQjrxvR',
+            icon: '/dollar-lamp.png',
             title: 'Monetization Strategy Development',
             offerings:[
                 'In-depth analysis of potential revenue models ( freemium, subscriptions, micro-transactions).',
@@ -147,49 +143,56 @@ export default {
     ],
     projects: [
         {
-            id: '0',
+            id: '1JdNEUyk',
+            index: 0,
             title: 'PROJEKT ROGUE',
             description: 'A dark fantasy RPG where players become the first Ascended of the Forsaken races—undead, orcs, elves, and more—leading a rebellion to reclaim their lands and legacy from the humans who once rose to godlike power and drove them into the shadows.',
             thumbnailSrc: 'https://picsum.photos/1080/1920',
             isActive: true
         },
         {
-            id: '1',
+            id: 'zAULCD3B',
+            index: 1,
             title: 'SANDS OF TIME - Game',
             description: 'A multiplayer online arena looter shooter game with both PVP and PVE elements. The game is set in a fictionalized version of the Arabian Peninsula where players can traverse a challenging sci-fi open-world map, progress through various quests and objectives, customize and enhance their characters, and engage in a wide variety of combat against a diverse set of enemies. Choose to party up with your friends, or dive in solo as you fight other players and AI in a hostile environment.',
             thumbnailSrc: 'https://picsum.photos/1080/1921',
             isActive: false
         },
         {
-            id: '2',
+            id: 'GfSZKj2h',
+            index: 2,
             title: 'SANDS OF TIME - SERIES',
             description: 'After a tragic scientific experiment shatters the fundamental fabric of time and space, the Arabian Peninsula emerges as the epicentre of a shattered world governed by weird, post-quantum physics that resembles old magic. This breach resurrects dead empires and marginalised communities from forgotten timelines, each with incredible powers once thought mythological. Aetherium, a powerful energy source capable of altering history, sits at the centre of the region, and these newly emboldened factions are fighting for control of it. In a world trapped between its past ideals and its future prospects, everyone stands to win or lose.',
             thumbnailSrc: 'https://picsum.photos/1080/1922',
             isActive: false
         },
         {
-            id: '3',
+            id: 'GkCTRjhf',
+            index: 3,
             title: 'S GAMER',
             description: 'S gamer is a show for anyone aspiring to achieve gaming literacy, as well as seasoned gamers that want to stay updated with the recent thrills of the fast evolving gaming world. ',
             thumbnailSrc: 'https://picsum.photos/1080/1923',
             isActive: false
         },
         {
-            id: '4',
+            id: '4NSNYYr7z',
+            index: 4,
             title: 'THE SHIMMERING SCEPTER SAGA',
             description: `In the enchanted realm of Pixelandia, colors vanished overnight when the nefarious wizard Voxel stole the Shimmering Scepter, plunging the world into monochrome despair. Now, it's up to Pixelio, a sprightly hero with a heart full of courage, to navigate treacherous terrains and perilous puzzles to restore the lost vibrancy. Join him on this daring quest to defeat Voxel and bring back the joy and colors to Pixelandia, unraveling mysteries that hint at further adventures.`,
             thumbnailSrc: 'https://picsum.photos/1080/1924',
             isActive: false
         },
         {
-            id: '5',
+            id: '99vPZ1U5',
+            index: 5,
             title: `FORTUNE'S FAVOR`,
             description: `In a world where the thrill of speed and the taste of victory are the only things that matter, a new kind of competition has emerged, fueled by the eccentric billionaire Maximus Fortune. This is the world of "Fortune’s Favor", a high-stakes, high-speed deathmatch where only the bravest, the boldest, and the fastest survive.`,
             thumbnailSrc: 'https://picsum.photos/1080/1924',
             isActive: false
         },
         {
-            id: '6',
+            id: 'pa2AqCBB',
+            index: 6,
             title: `RETAIL RIVALS`,
             description: `Dive into an immersive online arcade-style virtual world where players engage in a multitude of game modes, battling it out to secure exclusive coupons for their favorite stores! Set within a bustling mall, interact with quirky vendors, each with their own unique backstory and missions for you. Navigate the mall, undertake quests, and challenge others in exhilarating player-versus-player game modes. Climb the leaderboards to unlock seasonal rewards. As you play, not only do you earn valuable coupons and in-game rewards, but you'll also unravel the rich tapestry of tales that the mall and its vendors have to offer.`,
             thumbnailSrc: 'https://picsum.photos/1080/1924',
@@ -234,7 +237,7 @@ export default {
         },
         {
             id: '5',
-            avatarSrc: '/team/m1.jpg',
+            avatarSrc: '/team/firas.jpg',
             name: 'Firas',
             headline: 'Game Dev Technical Sol Architect',
             isCover: false
