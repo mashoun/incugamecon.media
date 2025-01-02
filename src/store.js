@@ -20,26 +20,31 @@ export default {
     navLinks: [
         {
             name: 'Home',
+            index: 1,
             url: '/',
             isActive: true
         },
         {
             name: 'Projects',
+            index: 2,
             url: '/projects',
             isActive: false
         },
         {
             name: 'Services',
+            index: 3,
             url: '/services',
             isActive: false
         },
         {
             name: 'Our Team',
+            index: 4,
             url: '/team',
             isActive: false
         },
         {
             name: 'Contact',
+            index: 5,
             url: '/contact',
             isActive: false
         },
@@ -60,38 +65,47 @@ export default {
     footerLinks: [
         {
             name: 'Home Page',
+            index: 1,
             url: '/',
         },
         {
             name: 'Projects',
+            index: 2,
             url: '/projects',
         },
         {
             name: 'Services',
+            index: 3,
             url: '/services',
         },
         {
             name: 'Our Team',
+            index: 4,
             url: '/team',
         },
         {
             name: 'Instagram',
+            index: 5,
             url: '/',
         },
         {
             name: 'Facebook',
+            index: 6,
             url: '/',
         },
         {
             name: 'LinkedIn',
+            index: 7,
             url: '/',
         },
         {
             name: 'Email',
+            index: 8,
             url: '/',
         },
         {
             name: 'Phone Number',
+            index: 9,
             url: '/',
         },
     ],
@@ -99,6 +113,7 @@ export default {
     services: [
         {
             id: 'xH1A65Vx',
+            index: 1,
             icon: '/services/gear.png',
             title: 'Innovative Game Concept Development',
             offerings: [
@@ -110,6 +125,7 @@ export default {
         },
         {
             id: 'd1ENEQLW',
+            index: 2,
             icon: '/services/start.png',
             title: 'Full Service Game Development',
             offerings: [
@@ -121,6 +137,7 @@ export default {
         },
         {
             id: 'RGe9eij3',
+            index: 3,
             icon: '/services/rocket.png',
             title: 'Stratigic Marketing and Launch Support',
             offerings: [
@@ -132,6 +149,7 @@ export default {
         },
         {
             id: 'wpqQTGRw',
+            index: 4,
             icon: '/services/refresh.png',
             title: 'Ongoing Support and Evolution',
             offerings: [
@@ -143,6 +161,7 @@ export default {
         },
         {
             id: 'wR8ptSJC',
+            index: 5,
             icon: '/services/design.png',
             title: 'User-Centric Design and Accessibility',
             offerings: [
@@ -154,6 +173,7 @@ export default {
         },
         {
             id: '9wQjrxvR',
+            index: 6,
             icon: '/services/dollar-lamp.png',
             title: 'Monetization Strategy Development',
             offerings: [
@@ -269,7 +289,7 @@ export default {
         },
         {
             id: '6',
-            avatarSrc: '/romel.jpg',
+            avatarSrc: '/team/romel.jpg',
             name: 'Romel',
             headline: 'Lead Game Producer',
             isCover: false

@@ -4,6 +4,7 @@ import './css/main.css'
 import './css/animations.css'
 import './css/responsive.css'
 
+
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router';

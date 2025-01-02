@@ -28,6 +28,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 .font-monti {
@@ -191,13 +192,19 @@ figure {
     display: block;
 }
 
-.glowing-sticker {
+.sticker-container{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.sticker {
     width: 300px;
     aspect-ratio: 1/1;
-    /* background-color: #FF33CA; */
+    background-color: var(--igc-200);
     filter: blur(150px);
     border-radius: 300px;
-    z-index: -1;
+    z-index: -3;
     position: absolute;
     opacity: 1;
     -webkit-animation: pulsate-bck 3s ease-in-out infinite both;
