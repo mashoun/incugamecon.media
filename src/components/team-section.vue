@@ -24,7 +24,7 @@
                                         <strong class="font-monti text-igc-100 fs-4 text-uppercase">
                                             {{ node.name }}
                                         </strong>
-                                        <p class="font-inter text-igc-grey fs-xsmall">{{ node.headline }}</p>
+                                        <p class="font-inter fw-bold text-igc-grey fs-xsmall">{{ node.headline }}</p>
                                     </div>
                                 </section>
                             </swiper-slide>
