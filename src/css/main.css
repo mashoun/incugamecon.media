@@ -24,7 +24,7 @@ main {
 }
 
 .full-section {
-    height: calc(100vh - 82px);
+    height: calc(100vh - 92px);
     display: flex;
     justify-content: center;
     align-items: center;

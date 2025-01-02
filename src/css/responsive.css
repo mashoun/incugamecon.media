@@ -12,6 +12,9 @@
         height: 50vh;
         font-size: 1rem;
     }
+    main{
+        gap: 0px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -26,5 +29,6 @@
 
 @media (max-width: 1200) {
     /* starting from x-large screens */
+    
 
 }

@@ -3,7 +3,7 @@ export default {
 
     logo: {
         src: '/logo.png',
-        size: '50px'
+        size: '60px'
     },
 
     title: 'IncuGameCon',
@@ -13,38 +13,33 @@ export default {
     contact: {
         email: 'info@incugamecon.media',
         number: '00971547443749',
-        linkedin: '',
-        instagram: ''
+        linkedin: 'https://www.instagram.com/incugamecon.media/',
+        instagram: 'https://www.linkedin.com/company/incugamecon/'
     },
 
     navLinks: [
         {
             name: 'Home',
-            index: 1,
             url: '/',
             isActive: true
         },
         {
             name: 'Projects',
-            index: 2,
             url: '/projects',
             isActive: false
         },
         {
             name: 'Services',
-            index: 3,
             url: '/services',
             isActive: false
         },
         {
             name: 'Our Team',
-            index: 4,
             url: '/team',
             isActive: false
         },
         {
             name: 'Contact',
-            index: 5,
             url: '/contact',
             isActive: false
         },
@@ -65,55 +60,45 @@ export default {
     footerLinks: [
         {
             name: 'Home Page',
-            index: 1,
             url: '/',
         },
         {
             name: 'Projects',
-            index: 2,
             url: '/projects',
         },
         {
             name: 'Services',
-            index: 3,
             url: '/services',
         },
         {
             name: 'Our Team',
-            index: 4,
             url: '/team',
         },
         {
-            name: 'Instagram',
-            index: 5,
-            url: '/',
+            name: 'Contact Us',
+            url: '/contact',
         },
         {
-            name: 'Facebook',
-            index: 6,
-            url: '/',
+            name: 'Instagram',
+            url: 'https://www.instagram.com/incugamecon.media/',
         },
         {
             name: 'LinkedIn',
-            index: 7,
-            url: '/',
+            url: 'https://www.linkedin.com/company/incugamecon/',
         },
         {
             name: 'Email',
-            index: 8,
-            url: '/',
+            url: 'mailto:info@incugamecon.media',
         },
         {
             name: 'Phone Number',
-            index: 9,
-            url: '/',
+            url: 'tel:00971547443749',
         },
     ],
 
     services: [
         {
             id: 'xH1A65Vx',
-            index: 1,
             icon: '/services/gear.png',
             title: 'Innovative Game Concept Development',
             offerings: [
@@ -125,7 +110,6 @@ export default {
         },
         {
             id: 'd1ENEQLW',
-            index: 2,
             icon: '/services/start.png',
             title: 'Full Service Game Development',
             offerings: [
@@ -137,7 +121,6 @@ export default {
         },
         {
             id: 'RGe9eij3',
-            index: 3,
             icon: '/services/rocket.png',
             title: 'Stratigic Marketing and Launch Support',
             offerings: [
@@ -149,7 +132,6 @@ export default {
         },
         {
             id: 'wpqQTGRw',
-            index: 4,
             icon: '/services/refresh.png',
             title: 'Ongoing Support and Evolution',
             offerings: [
@@ -161,7 +143,6 @@ export default {
         },
         {
             id: 'wR8ptSJC',
-            index: 5,
             icon: '/services/design.png',
             title: 'User-Centric Design and Accessibility',
             offerings: [
@@ -173,7 +154,6 @@ export default {
         },
         {
             id: '9wQjrxvR',
-            index: 6,
             icon: '/services/dollar-lamp.png',
             title: 'Monetization Strategy Development',
             offerings: [
@@ -188,23 +168,20 @@ export default {
     projects: [
         // {
         //     id: '1JdNEUyk',
-        //     index: 0,
-        //     title: 'PROJEKT ROGUE',
+        //        title: 'PROJEKT ROGUE',
         //     description: 'A dark fantasy RPG where players become the first Ascended of the Forsaken races—undead, orcs, elves, and more—leading a rebellion to reclaim their lands and legacy from the humans who once rose to godlike power and drove them into the shadows.',
         //     thumbnailSrc: '',
         //     isActive: true
         // },
         {
             id: 'zAULCD3B',
-            index: 0,
-            title: 'SANDS OF TIME - Game',
+            // title: 'SANDS OF TIME - Game',
             description: 'A multiplayer online arena looter shooter game with both PVP and PVE elements. The game is set in a fictionalized version of the Arabian Peninsula where players can traverse a challenging sci-fi open-world map, progress through various quests and objectives, customize and enhance their characters, and engage in a wide variety of combat against a diverse set of enemies. Choose to party up with your friends, or dive in solo as you fight other players and AI in a hostile environment.',
             thumbnailSrc: '/projects/sandsgame.jpg',
             isActive: true
         },
         {
             id: 'GfSZKj2h',
-            index: 1,
             title: 'SANDS OF TIME - SERIES',
             description: 'After a tragic scientific experiment shatters the fundamental fabric of time and space, the Arabian Peninsula emerges as the epicentre of a shattered world governed by weird, post-quantum physics that resembles old magic. This breach resurrects dead empires and marginalised communities from forgotten timelines, each with incredible powers once thought mythological. Aetherium, a powerful energy source capable of altering history, sits at the centre of the region, and these newly emboldened factions are fighting for control of it. In a world trapped between its past ideals and its future prospects, everyone stands to win or lose.',
             thumbnailSrc: '/projects/sandsshow.jpg',
@@ -212,7 +189,6 @@ export default {
         },
         {
             id: 'GkCTRjhf',
-            index: 2,
             title: 'S GAMER',
             description: 'S gamer is a show for anyone aspiring to achieve gaming literacy, as well as seasoned gamers that want to stay updated with the recent thrills of the fast evolving gaming world. ',
             thumbnailSrc: '/projects/sgamer.png',
@@ -220,7 +196,6 @@ export default {
         },
         {
             id: '4NSNYYr7z',
-            index: 3,
             title: 'THE SHIMMERING SCEPTER SAGA',
             description: `In the enchanted realm of Pixelandia, colors vanished overnight when the nefarious wizard Voxel stole the Shimmering Scepter, plunging the world into monochrome despair. Now, it's up to Pixelio, a sprightly hero with a heart full of courage, to navigate treacherous terrains and perilous puzzles to restore the lost vibrancy. Join him on this daring quest to defeat Voxel and bring back the joy and colors to Pixelandia, unraveling mysteries that hint at further adventures.`,
             thumbnailSrc: '/projects/saga.jpg',
@@ -228,7 +203,6 @@ export default {
         },
         {
             id: '99vPZ1U5',
-            index: 4,
             title: `FORTUNE'S FAVOR`,
             description: `In a world where the thrill of speed and the taste of victory are the only things that matter, a new kind of competition has emerged, fueled by the eccentric billionaire Maximus Fortune. This is the world of "Fortune’s Favor", a high-stakes, high-speed deathmatch where only the bravest, the boldest, and the fastest survive.`,
             thumbnailSrc: '/projects/fortunes.jpg',
@@ -236,7 +210,6 @@ export default {
         },
         {
             id: 'pa2AqCBB',
-            index: 5,
             title: `RETAIL RIVALS`,
             description: `Dive into an immersive online arcade-style virtual world where players engage in a multitude of game modes, battling it out to secure exclusive coupons for their favorite stores! Set within a bustling mall, interact with quirky vendors, each with their own unique backstory and missions for you. Navigate the mall, undertake quests, and challenge others in exhilarating player-versus-player game modes. Climb the leaderboards to unlock seasonal rewards. As you play, not only do you earn valuable coupons and in-game rewards, but you'll also unravel the rich tapestry of tales that the mall and its vendors have to offer.`,
             thumbnailSrc: '/projects/mall.jpg',
@@ -301,5 +274,11 @@ export default {
             headline: 'Marketing & Product Development',
             isCover: false
         },
-    ]
+    ],
+    indexArray(arr) {
+        for (let i = 1; i <= arr.length; i++) {
+            arr[i - 1].index = i;
+        }
+        return arr
+    }
 }

@@ -5,7 +5,7 @@
                 <div class="col-12">
                     <h1 data-aos="zoom-in-up" data-aos-delay="500" class="font-monti text-igc-light">Our Services</h1>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4" v-for="node in store.services">
+                <div class="col-12 col-md-6 col-lg-4" v-for="node in store.indexArray(store.services)">
                     <a :href="`/services/${node.id}`">
                         <section data-aos="flip-up" :data-aos-delay="node.index * 200" class="service-box">
                             <div class="sb-icon ratio ratio-1x1" style="width: 150px;">

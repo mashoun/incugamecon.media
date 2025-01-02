@@ -9,7 +9,7 @@
             <div :class="`col-12 col-lg-9 ${node.index % 2 == 0 ? 'order-lg-1' : 'order-lg-0'}`">
                 <aside class="d-flex flex-column gap-2">
                     <h2 class="font-monti fs-2 text-igc-light">{{node.title}}</h2>
-                    <p class="fs-small font-inter text-igc-grey">{{ node.description }}</p>
+                    <p class="fs-5 font-inter text-igc-grey">{{ node.description }}</p>
                 </aside>
             </div>
             <hr class="my-5 text-light order-lg-3">
