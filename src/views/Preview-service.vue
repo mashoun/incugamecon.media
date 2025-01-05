@@ -5,22 +5,27 @@
                 <p class="text-igc-grey font-monospace text-center">Page Not Found</p>
             </div>
         </div> -->
-        <div v-if="preview().length != 0" class="row g-3">
+        <div v-if="preview().length != 0" class="row g-3 align-items-center">
             <div class="col-12 col-lg-3">
                 <figure class="ratio ratio-1x1">
                     <img :src="preview()[0].icon" alt="Thumbnail" class="object-fit-cover bg-light rounded">
                 </figure>
             </div>
             <div class="col-12 col-lg-9">
-                <aside class="d-flex flex-column gap-2">
+                <aside class="d-flex flex-column gap-2 ms-lg-5">
                     <h2 class="font-monti fs-2 text-igc-light">{{ preview()[0].title }}</h2>
-                    <p class="fs-small font-inter text-igc-grey">{{ preview()[0].description }}</p>
+                    <p class="fs-5 font-inter text-igc-grey">{{ preview()[0].description }}</p>
                     <br>
-                    <span class="font-monti fs-5 text-igc-light">Offerings:</span>
-                    <p class="fs-small font-inter text-igc-grey" v-for="node in preview()[0].offerings">
-                        <span>• {{ node }}</span><br>
-                    </p>
                 </aside>
+            </div>
+            <div class="col-12">
+                
+                <div class="mt-5">
+                    <span class="font-monti fs-4 text-igc-light">Offerings:</span>
+                <p class="fs-5 font-inter text-igc-grey" v-for="node in preview()[0].offerings">
+                    <span>• {{ node }}</span><br>
+                </p>
+                </div>
             </div>
             <hr class="text-light my-5">
         </div>

@@ -10,10 +10,12 @@
 }
 
 body {
+    overflow-x: hidden !important;
     background-color: var(--igc-dark);
 }
 
 main {
+    overflow-x: hidden !important;
     display: flex;
     flex-direction: column;
     gap: 100px;
@@ -60,11 +62,11 @@ figure {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: .5rem;
+    gap: 1rem;
 }
 
 .project-column {
-    width: 75px;
+    width: 100px;
     height: 500px;
     overflow: hidden;
     position: relative;
@@ -79,7 +81,7 @@ figure {
 }
 
 .pc-active {
-    width: 500px;
+    width: 600px;
     font-size: 1rem;
 }
 
@@ -180,7 +182,7 @@ figure {
 }
 
 .service-box:hover {
-    background-color: var(--igc-100);
+    background-color: var(--igc-200);
 }
 
 .service-box:hover>.sb-icon,
@@ -199,9 +201,11 @@ figure {
     height: 100vh;
 }
 .sticker {
-    width: 300px;
+    width: 600px;
     aspect-ratio: 1/1;
-    background-color: var(--igc-200);
+    /* background-color: var(--igc-200); */
+    background: rgb(135,135,135);
+    background: linear-gradient(27deg, rgba(135,135,135,1) 0%, rgba(48,32,125,1) 84%);
     filter: blur(150px);
     border-radius: 300px;
     z-index: -3;
@@ -241,4 +245,14 @@ figure {
 
 .navi-link-active {
     color: var(--igc-light);
+}
+
+.footer-section{
+    /* width: 100%; */
+    overflow-x: hidden !important;
+    min-height: 350px;
+    background-color: var(--igc-100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

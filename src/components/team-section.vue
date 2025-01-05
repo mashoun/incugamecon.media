@@ -1,5 +1,5 @@
 <template>
-    <section class="position-relative">
+    <section class="position-relative" id="team">
         <section class="container my-5 overflow-hidden">
             <div class="row justify-content-center g-3">
                 <div class="col-12">
@@ -41,7 +41,7 @@
             </div>
         </section>
         
-        <div class="sticker top-0 start-0"></div>
+        <!-- <div class="sticker top-50 start-0"></div> -->
     </section>
 </template>
 <script>

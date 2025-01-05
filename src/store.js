@@ -1,5 +1,5 @@
 export default {
-    version: '1.1.0',
+    version: '1.1.1',
 
     logo: {
         src: '/logo.png',
@@ -12,7 +12,7 @@ export default {
 
     contact: {
         email: 'info@incugamecon.media',
-        number: '00971547443749',
+        // number: '00971547443749',
         linkedin: 'https://www.instagram.com/incugamecon.media/',
         instagram: 'https://www.linkedin.com/company/incugamecon/'
     },
@@ -38,11 +38,11 @@ export default {
             url: '/team',
             isActive: false
         },
-        {
-            name: 'Contact',
-            url: '/contact',
-            isActive: false
-        },
+        // {
+        //     name: 'Contact',
+        //     url: '/contact',
+        //     isActive: false
+        // },
     ],
 
     hero: {
@@ -70,30 +70,14 @@ export default {
             name: 'Services',
             url: '/services',
         },
-        {
-            name: 'Our Team',
-            url: '/team',
-        },
+        // {
+        //     name: 'Our Team',
+        //     url: '/team',
+        // },
         {
             name: 'Contact Us',
             url: '/contact',
-        },
-        {
-            name: 'Instagram',
-            url: 'https://www.instagram.com/incugamecon.media/',
-        },
-        {
-            name: 'LinkedIn',
-            url: 'https://www.linkedin.com/company/incugamecon/',
-        },
-        {
-            name: 'Email',
-            url: 'mailto:info@incugamecon.media',
-        },
-        {
-            name: 'Phone Number',
-            url: 'tel:00971547443749',
-        },
+        }
     ],
 
     services: [
@@ -175,7 +159,7 @@ export default {
         // },
         {
             id: 'zAULCD3B',
-            // title: 'SANDS OF TIME - Game',
+            title: 'SANDS OF TIME - Game',
             description: 'A multiplayer online arena looter shooter game with both PVP and PVE elements. The game is set in a fictionalized version of the Arabian Peninsula where players can traverse a challenging sci-fi open-world map, progress through various quests and objectives, customize and enhance their characters, and engage in a wide variety of combat against a diverse set of enemies. Choose to party up with your friends, or dive in solo as you fight other players and AI in a hostile environment.',
             thumbnailSrc: '/projects/sandsgame.jpg',
             isActive: true

@@ -5,7 +5,7 @@
                 <h1 class="font-monti my-5 text-igc-light text-center" data-aos="zoom-in" data-aos-delay="500">Our Team  </h1>
             </div>
             <div class="col-12 col-md-6 col-lg-3" v-for="node in store.indexArray(store.team)" :key="node.id">
-                <section data-aos="zoom-in-up" :data-aos-delay="node.index * 120" class="p-3 py-5 bg-igc-light d-flex justify-content-between align-items-center gap-3 rounded-md">
+                <section data-aos="zoom-in-up" :data-aos-delay="node.index * 250" class="p-3 py-5 bg-igc-light d-flex justify-content-between align-items-center gap-3 rounded-md">
                     <div class="ratio ratio-1x1" style="width: 200px;">
                         <img :src="node.avatarSrc" alt="avatar image"
                             :class="`rounded-circle ${!node.isCover ? 'object-fit-cover' : 'object-fit-contain'}`">

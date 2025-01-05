@@ -1,6 +1,6 @@
 <template>
     <section class="container my-5">
-        <div class="row g-3 mb-5" v-for="node in store.projects">
+        <div class="row g-3 mb-5" v-for="node in store.indexArray(store.projects)">
             <div :class="`col-12 col-lg-3 ${node.index % 2 == 0 ? 'order-lg-0' : 'order-lg-1'}`">
                 <figure class="ratio ratio-1x1">
                     <img :src="node.thumbnailSrc" alt="Thumbnail" class="object-fit-cover rounded">

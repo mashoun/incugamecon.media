@@ -1,5 +1,5 @@
 <template>
-    <section class="bg-igc-dark position-sticky z-3 top-0 d-flex justify-content-between gap-2 px-3 py-3 text-igc-light">
+    <section class="bg-igc-dark position-sticky z-3 top-0 d-flex justify-content-between gap-2 px-3 px-lg-5 py-3 text-igc-light">
         <a href="/">
             <section data-aos-once="true" data-aos="zoom-in" data-aos-duration="1000">
                 <figure class="ratio ratio-1x1" :style="`width: ${store.logo.size};`">
@@ -9,6 +9,7 @@
         </a>
         <nav class="d-none d-lg-flex align-items-center justify-content-center gap-4">
             <a data-aos-once="true" data-aos="zoom-in" :data-aos-delay="node.index * 120" class="navi-link fs-5" :class="{'navi-link-active': isActivePage(node.url), 'navi-link':!isActivePage(node.url)}" :href="node.url" v-for="node in store.indexArray(store.navLinks)" >{{ node.name }}</a>
+            <a href="/contact"  class="bg-igc-200 px-3 py-2 rounded">Contact Us</a>
         </nav>
         <div class="d-lg-none d-flex align-items-center" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar" aria-controls="sidebar">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" fill="currentColor" class="bi bi-list"
