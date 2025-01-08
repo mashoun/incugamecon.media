@@ -127,7 +127,7 @@ export default {
         },
         {
             id: 'wR8ptSJC',
-            icon: '/services/design.png',
+            icon: '/services/screen.png',
             title: 'User-Centric Design and Accessibility',
             offerings: [
                 'Accessibility consulting to ensure games meet global accessibility standards',
@@ -138,7 +138,7 @@ export default {
         },
         {
             id: '9wQjrxvR',
-            icon: '/services/dollar-lamp.png',
+            icon: '/services/dollar.png',
             title: 'Monetization Strategy Development',
             offerings: [
                 'In-depth analysis of potential revenue models ( freemium, subscriptions, micro-transactions).',
@@ -221,42 +221,42 @@ export default {
             avatarSrc: '/team/jad.jpg',
             name: 'Jad',
             headline: 'Creative & Content Manager',
-            isCover: false
+            isCover: true
         },
         {
             id: '3',
-            avatarSrc: '/team/rashid.jpg',
+            avatarSrc: '/team/rasheed.jpg',
             name: 'Rashid',
             headline: 'General Manager',
-            isCover: false
+            isCover: true
         },
         {
             id: '4',
             avatarSrc: '/team/dany.jpg',
             name: 'Daniel',
             headline: 'Lead Designer',
-            isCover: false
+            isCover: true
         },
         {
             id: '5',
             avatarSrc: '/team/firas.jpg',
             name: 'Firas',
             headline: 'Game Dev Technical Sol Architect',
-            isCover: false
+            isCover: true
         },
         {
             id: '6',
             avatarSrc: '/team/romel.jpg',
             name: 'Romel',
             headline: 'Lead Game Producer',
-            isCover: false
+            isCover: true
         },
         {
             id: '7',
             avatarSrc: '/team/ricardo.jpg',
             name: 'Ricardo',
             headline: 'Marketing & Product Development',
-            isCover: false
+            isCover: true
         },
     ],
     indexArray(arr) {
