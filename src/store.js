@@ -47,13 +47,7 @@ export default {
 
     hero: {
         title: 'INCUGAMECON',
-        description: `Welcome to IncuGameCon, where we guide startups and investors through the
-        gaming industry with innovative consulting and development. Our mission is to transform
-        ideas into captivating games and become the leading hub for gaming collaboration. Combining
-        expert market and IP knowledge with advanced technology, we champion integrity, discipline,
-        and transparency. These values ensure every action we take fosters open dialogue and
-        excellence, breaking down creative barriers and paving the way for globally successful
-        games. Join us to make a lasting impact in the gaming world.`
+        description: `Welcome to IncuGameCon, where we guide enthusiasts, developers, and investors through the dynamic landscape of the gaming industry with state-of-the-art consulting and development services. Our mission is to transform innovative ideas into engaging games, positioning ourselves as your premier partner in gaming collaboration. By merging deep market insights and intellectual property expertise with cutting-edge technology, we uphold values of integrity, discipline, and transparency. These principles drive us to foster open dialogue and strive for excellence, breaking through creative barriers and paving the way for games that resonate globally. Join us at IncuGameCon and make a lasting impact in the gaming world.`
 
     },
 
@@ -158,10 +152,10 @@ export default {
         //     isActive: true
         // },
         {
-            id: 'zAULCD3B',
-            title: 'SANDS OF TIME - Game',
-            description: 'A multiplayer online arena looter shooter game with both PVP and PVE elements. The game is set in a fictionalized version of the Arabian Peninsula where players can traverse a challenging sci-fi open-world map, progress through various quests and objectives, customize and enhance their characters, and engage in a wide variety of combat against a diverse set of enemies. Choose to party up with your friends, or dive in solo as you fight other players and AI in a hostile environment.',
-            thumbnailSrc: '/projects/sandsgame.jpg',
+            id: 'xqak9gB4',
+            title: 'PROJEKT ROGUE',
+            description: `A dark fantasy RPG where players become the first Ascended of the Forsaken races—undead, orcs, elves, and more—leading a rebellion to reclaim their lands and legacy from the humans who once rose to godlike power and drove them into the shadows.`,
+            thumbnailSrc: '/projects/rogue.jpg',
             isActive: true
         },
         {
@@ -172,9 +166,30 @@ export default {
             isActive: false
         },
         {
+            id: '99vPZ1U5',
+            title: `FORTUNE'S FAVOR`,
+            description: `In a world where the thrill of speed and the taste of victory are the only things that matter, a new kind of competition has emerged, fueled by the eccentric billionaire Maximus Fortune. This is the world of "Fortune’s Favor", a high-stakes, vehicular combat game where only the bravest, the boldest, and the fastest survive.`,
+            thumbnailSrc: '/projects/fortunes.jpg',
+            isActive: false
+        },
+        {
+            id: 'zAULCD3B',
+            title: 'SANDS OF TIME - Game',
+            description: 'A multiplayer online arena looter shooter game with both PVP and PVE elements. The game is set in a fictionalized version of the Arabian Peninsula where players can traverse a challenging sci-fi open-world map, progress through various quests and objectives, customize and enhance their characters, and engage in a wide variety of combat against a diverse set of enemies. Choose to party up with your friends, or dive in solo as you fight other players and AI in a hostile environment.',
+            thumbnailSrc: '/projects/sandsgame.jpg',
+            isActive: false
+        },
+        {
+            id: 'pa2AqCBB',
+            title: `RETAIL RIVALS`,
+            description: `Dive into an immersive online arcade-style virtual world where players engage in a multitude of game modes, battling it out to secure exclusive coupons for their favorite stores! Set within a bustling mall, interact with quirky vendors, each with their own unique backstory and missions for you. Navigate the mall, undertake quests, and challenge others in exhilarating player-versus-player game modes. Climb the leaderboards to unlock seasonal rewards. As you play, not only do you earn valuable coupons and in-game rewards, but you'll also unravel the rich tapestry of tales that the mall and its vendors have to offer.`,
+            thumbnailSrc: '/projects/mall.jpg',
+            isActive: false
+        },
+        {
             id: 'GkCTRjhf',
             title: 'S GAMER',
-            description: 'S gamer is a show for anyone aspiring to achieve gaming literacy, as well as seasoned gamers that want to stay updated with the recent thrills of the fast evolving gaming world. ',
+            description: 'S gamer is a show for anyone aspiring to achieve gaming literacy, as well as seasoned gamers that want to stay updated with the recent thrills of the fast evolving gaming world. S Gamer" immerses viewers in the vibrant world of gaming, exploring groundbreaking technologies and cultural acceptance within different societies through the perspectives of a diverse array of guests alongside seasoned hosts, Romel and Ricardo.',
             thumbnailSrc: '/projects/sgamer.png',
             isActive: false
         },
@@ -183,20 +198,6 @@ export default {
             title: 'THE SHIMMERING SCEPTER SAGA',
             description: `In the enchanted realm of Pixelandia, colors vanished overnight when the nefarious wizard Voxel stole the Shimmering Scepter, plunging the world into monochrome despair. Now, it's up to Pixelio, a sprightly hero with a heart full of courage, to navigate treacherous terrains and perilous puzzles to restore the lost vibrancy. Join him on this daring quest to defeat Voxel and bring back the joy and colors to Pixelandia, unraveling mysteries that hint at further adventures.`,
             thumbnailSrc: '/projects/saga.jpg',
-            isActive: false
-        },
-        {
-            id: '99vPZ1U5',
-            title: `FORTUNE'S FAVOR`,
-            description: `In a world where the thrill of speed and the taste of victory are the only things that matter, a new kind of competition has emerged, fueled by the eccentric billionaire Maximus Fortune. This is the world of "Fortune’s Favor", a high-stakes, high-speed deathmatch where only the bravest, the boldest, and the fastest survive.`,
-            thumbnailSrc: '/projects/fortunes.jpg',
-            isActive: false
-        },
-        {
-            id: 'pa2AqCBB',
-            title: `RETAIL RIVALS`,
-            description: `Dive into an immersive online arcade-style virtual world where players engage in a multitude of game modes, battling it out to secure exclusive coupons for their favorite stores! Set within a bustling mall, interact with quirky vendors, each with their own unique backstory and missions for you. Navigate the mall, undertake quests, and challenge others in exhilarating player-versus-player game modes. Climb the leaderboards to unlock seasonal rewards. As you play, not only do you earn valuable coupons and in-game rewards, but you'll also unravel the rich tapestry of tales that the mall and its vendors have to offer.`,
-            thumbnailSrc: '/projects/mall.jpg',
             isActive: false
         },
         // {

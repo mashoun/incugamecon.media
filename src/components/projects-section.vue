@@ -7,7 +7,7 @@
                 </div>
                 <div data-aos="zoom-in" data-aos-duration="1000" class="col-12">
                     <div class="pc-container">
-                        <aside v-for="node in store.indexArray(store.projects)" :key="node.id" class="project-column" :class="{ 'pc-active': node.isActive }" @click="togglePC(node)" :style="`background-image: url(${node.thumbnailSrc});`">
+                        <aside v-for="node in store.indexArray(store.projects.slice(0,5))" :key="node.id" class="project-column" :class="{ 'pc-active': node.isActive }" @click="togglePC(node)" :style="`background-image: url(${node.thumbnailSrc});`">
                             <div v-if="node.isActive" class="pc-wrapper bg-glass-dark">
                                 <div class="p-4 d-flex flex-column gap-2">
                                     <strong class="text-igc-light fs-5 font-monti">{{ node.title }}</strong>
