@@ -7,6 +7,11 @@ const routes = [
   { path: '/projects', name: 'projects', component: () => import('../views/Projects.vue') },
   { path: '/team', name: 'team', component: () => import('../views/Team.vue') },
   { path: '/contact', name: 'contact', component: () => import('../views/Contact.vue') },
+  {
+    path: '/:pathMatch(.*)*', // Catch all undefined routes
+    name: 'NotFound',
+    component: () => import('../views/Home.vue') ,
+  },
 ];
 
 const router = createRouter({
