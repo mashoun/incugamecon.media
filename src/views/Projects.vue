@@ -1,5 +1,11 @@
 <template>
     <section class="container my-5">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="font-monti text-igc-light text-center my-3">Our Projects</h1>
+            </div>
+            <hr class="my-5 text-light">
+        </div>
         <div class="row g-3 mb-5" v-for="node in store.indexArray(store.projects)">
             <div :class="`col-12 col-lg-3 ${node.index % 2 == 0 ? 'order-lg-0' : 'order-lg-1'}`">
                 <figure class="ratio ratio-1x1">

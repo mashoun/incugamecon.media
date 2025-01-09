@@ -8,11 +8,8 @@ export default {
 
     title: 'IncuGameCon',
 
-    headline: 'Our mission is to transform ideas into captivating games and become the leading hub for gaming collaboration.',
-
     contact: {
         email: 'info@incugamecon.media',
-        // number: '00971547443749',
         linkedin: 'https://www.instagram.com/incugamecon.media/',
         instagram: 'https://www.linkedin.com/company/incugamecon/'
     },
@@ -47,7 +44,12 @@ export default {
 
     hero: {
         title: 'INCUGAMECON',
-        description: `Welcome to IncuGameCon, where we guide enthusiasts, developers, and investors through the dynamic landscape of the gaming industry with state-of-the-art consulting and development services. Our mission is to transform innovative ideas into engaging games, positioning ourselves as your premier partner in gaming collaboration. By merging deep market insights and intellectual property expertise with cutting-edge technology, we uphold values of integrity, discipline, and transparency. These principles drive us to foster open dialogue and strive for excellence, breaking through creative barriers and paving the way for games that resonate globally. Join us at IncuGameCon and make a lasting impact in the gaming world.`
+        descriptions : [
+            'Welcome to IncuGameCon, where we guide enthusiasts, developers, and investors through the dynamic landscape of the gaming industry with state-of-the-art consulting and development services. Our mission is to transform innovative ideas into engaging games, positioning ourselves as your premier partner in gaming collaboration.',
+            `By merging deep market insights and intellectual property expertise with cutting-edge technology, we uphold values of integrity, discipline, and transparency.`,
+            `These principles drive us to foster open dialogue and strive for excellence, breaking through creative barriers and paving the way for games that resonate globally.`,
+            `Join us at IncuGameCon and make a lasting impact in the gaming world.`
+        ]
 
     },
 
@@ -155,42 +157,42 @@ export default {
             id: 'xqak9gB4',
             title: 'PROJEKT ROGUE',
             description: `A dark fantasy RPG where players become the first Ascended of the Forsaken races—undead, orcs, elves, and more—leading a rebellion to reclaim their lands and legacy from the humans who once rose to godlike power and drove them into the shadows.`,
-            thumbnailSrc: '/projects/rogue.jpg',
+            thumbnailSrc: '/projects/rogue-min.jpg',
             isActive: true
         },
         {
             id: 'GfSZKj2h',
             title: 'SANDS OF TIME - SERIES',
             description: 'After a tragic scientific experiment shatters the fundamental fabric of time and space, the Arabian Peninsula emerges as the epicentre of a shattered world governed by weird, post-quantum physics that resembles old magic. This breach resurrects dead empires and marginalised communities from forgotten timelines, each with incredible powers once thought mythological. Aetherium, a powerful energy source capable of altering history, sits at the centre of the region, and these newly emboldened factions are fighting for control of it. In a world trapped between its past ideals and its future prospects, everyone stands to win or lose.',
-            thumbnailSrc: '/projects/sandsshow.jpg',
+            thumbnailSrc: '/projects/sandsshow-min.jpg',
             isActive: false
         },
         {
             id: '99vPZ1U5',
             title: `FORTUNE'S FAVOR`,
             description: `In a world where the thrill of speed and the taste of victory are the only things that matter, a new kind of competition has emerged, fueled by the eccentric billionaire Maximus Fortune. This is the world of "Fortune’s Favor", a high-stakes, vehicular combat game where only the bravest, the boldest, and the fastest survive.`,
-            thumbnailSrc: '/projects/fortunes.jpg',
+            thumbnailSrc: '/projects/fortunes-min.jpg',
             isActive: false
         },
         {
             id: 'zAULCD3B',
             title: 'SANDS OF TIME - Game',
             description: 'A multiplayer online arena looter shooter game with both PVP and PVE elements. The game is set in a fictionalized version of the Arabian Peninsula where players can traverse a challenging sci-fi open-world map, progress through various quests and objectives, customize and enhance their characters, and engage in a wide variety of combat against a diverse set of enemies. Choose to party up with your friends, or dive in solo as you fight other players and AI in a hostile environment.',
-            thumbnailSrc: '/projects/sandsgame.jpg',
+            thumbnailSrc: '/projects/sandsgame-min.jpg',
             isActive: false
         },
         {
             id: 'pa2AqCBB',
             title: `RETAIL RIVALS`,
             description: `Dive into an immersive online arcade-style virtual world where players engage in a multitude of game modes, battling it out to secure exclusive coupons for their favorite stores! Set within a bustling mall, interact with quirky vendors, each with their own unique backstory and missions for you. Navigate the mall, undertake quests, and challenge others in exhilarating player-versus-player game modes. Climb the leaderboards to unlock seasonal rewards. As you play, not only do you earn valuable coupons and in-game rewards, but you'll also unravel the rich tapestry of tales that the mall and its vendors have to offer.`,
-            thumbnailSrc: '/projects/mall.jpg',
+            thumbnailSrc: '/projects/mall-min.jpg',
             isActive: false
         },
         {
             id: 'GkCTRjhf',
             title: 'S GAMER',
             description: 'S gamer is a show for anyone aspiring to achieve gaming literacy, as well as seasoned gamers that want to stay updated with the recent thrills of the fast evolving gaming world. S Gamer" immerses viewers in the vibrant world of gaming, exploring groundbreaking technologies and cultural acceptance within different societies through the perspectives of a diverse array of guests alongside seasoned hosts, Romel and Ricardo.',
-            thumbnailSrc: '/projects/sgamer.png',
+            thumbnailSrc: '/projects/sgamer-min.png',
             isActive: false
         },
         {

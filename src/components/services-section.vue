@@ -18,7 +18,7 @@
                 </div>
             </div>
         </section>
-        <div class="sticker top-50 end-0"></div>
+        <div class="sticker top-0 end-0"></div>
     </section>
 </template>
 <script>

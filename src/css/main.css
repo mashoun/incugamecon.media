@@ -15,10 +15,12 @@ body {
 }
 
 main {
+    /* min-height: 150vh; */
     overflow-x: hidden !important;
     display: flex;
     flex-direction: column;
     gap: 100px;
+    padding-bottom: 100px;
 }
 
 .offcanvas {

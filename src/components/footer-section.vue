@@ -1,5 +1,5 @@
 <template>
-    <section class="px-3 py-5 mt-5 footer-section" style="min-height: 300px;">
+    <section class="px-3 py-5 footer-section" style="min-height: 300px;">
         <section class="container-fluid">
             <!-- <div class="row">
                 <div class="col-12">
