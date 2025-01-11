@@ -157,14 +157,14 @@ export default {
             id: 'xqak9gB4',
             title: 'PROJEKT ROGUE',
             description: `A dark fantasy RPG where players become the first Ascended of the Forsaken races—undead, orcs, elves, and more—leading a rebellion to reclaim their lands and legacy from the humans who once rose to godlike power and drove them into the shadows.`,
-            thumbnailSrc: '/projects/rogue-min-2.jpg',
+            thumbnailSrc: '/projects/rogue-min.jpg',
             isActive: true
         },
         {
             id: 'GfSZKj2h',
             title: 'SANDS OF TIME - SERIES',
             description: 'After a tragic scientific experiment shatters the fundamental fabric of time and space, the Arabian Peninsula emerges as the epicentre of a shattered world governed by weird, post-quantum physics that resembles old magic. This breach resurrects dead empires and marginalised communities from forgotten timelines, each with incredible powers once thought mythological. Aetherium, a powerful energy source capable of altering history, sits at the centre of the region, and these newly emboldened factions are fighting for control of it. In a world trapped between its past ideals and its future prospects, everyone stands to win or lose.',
-            thumbnailSrc: '/projects/sandsshow-min.jpg',
+            thumbnailSrc: '/projects/sandoftimeseries-min.jpg',
             isActive: false
         },
         {
