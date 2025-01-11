@@ -58,6 +58,3 @@ firebase deploy --only hosting
 
 ### Store
 The store is defined in store.js and contains the data for the application, including navigation links, hero section content, services, projects, and team members.
-
-### License
-This project is licensed under the MIT License.
