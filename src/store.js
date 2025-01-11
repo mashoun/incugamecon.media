@@ -10,8 +10,8 @@ export default {
 
     contact: {
         email: 'info@incugamecon.media',
-        linkedin: 'https://www.instagram.com/incugamecon.media/',
-        instagram: 'https://www.linkedin.com/company/incugamecon/'
+        linkedin: 'https://www.linkedin.com/company/incugamecon/',
+        instagram: 'https://www.instagram.com/incugamecon.media/'
     },
 
     navLinks: [
@@ -157,7 +157,7 @@ export default {
             id: 'xqak9gB4',
             title: 'PROJEKT ROGUE',
             description: `A dark fantasy RPG where players become the first Ascended of the Forsaken races—undead, orcs, elves, and more—leading a rebellion to reclaim their lands and legacy from the humans who once rose to godlike power and drove them into the shadows.`,
-            thumbnailSrc: '/projects/rogue-min.jpg',
+            thumbnailSrc: '/projects/rogue-min-2.jpg',
             isActive: true
         },
         {
