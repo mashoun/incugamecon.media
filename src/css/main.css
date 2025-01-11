@@ -60,37 +60,7 @@ figure {
     text-decoration: none;
 }
 
-.pc-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-}
-
-.project-column {
-    width: 100px;
-    height: 500px;
-    overflow: hidden;
-    position: relative;
-    border-radius: 50px;
-    /* padding: 2.5rem; */
-    text-wrap: pretty;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    font-size: 1px;
-    transition: .5s;
-}
-
-.pc-active {
-    width: 600px;
-    font-size: 1rem;
-}
-
-.pc-wrapper {
-    position: absolute;
-    bottom: 0;
-}
+/* Utilities */
 
 .bg-glass-dark {
     background: rgba(0, 0, 0, 0.2);
@@ -165,6 +135,62 @@ figure {
     border: 2px solid var(--igc-200);
 }
 
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--igc-grey);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--igc-light);
+}
+
+
+
+/* Projects */
+.pc-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.project-column {
+    width: 100px;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 50px;
+    /* padding: 2.5rem; */
+    text-wrap: pretty;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 1px;
+    transition: .5s;
+}
+
+.pc-active {
+    width: 600px;
+    font-size: 1rem;
+}
+
+.pc-wrapper {
+    position: absolute;
+    bottom: 0;
+}
+
+/* Services */
 .service-box {
     height: 180px;
     padding: 1rem;
@@ -196,18 +222,21 @@ figure {
     display: block;
 }
 
-.sticker-container{
+/* Glowing Element Effect */
+
+.sticker-container {
     position: fixed;
     top: 0;
     width: 100vw;
     height: 100vh;
 }
+
 .sticker {
     width: 600px;
     aspect-ratio: 1/1;
     /* background-color: var(--igc-200); */
-    background: rgb(135,135,135);
-    background: linear-gradient(27deg, rgba(135,135,135,1) 0%, rgba(48,32,125,1) 84%);
+    background: rgb(135, 135, 135);
+    background: linear-gradient(27deg, rgba(135, 135, 135, 1) 0%, rgba(48, 32, 125, 1) 84%);
     filter: blur(150px);
     border-radius: 300px;
     z-index: -3;
@@ -217,26 +246,7 @@ figure {
     animation: pulsate-bck 3s ease-in-out infinite both;
 }
 
-/* width */
-::-webkit-scrollbar {
-    width: 5px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-    background: transparent;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: var(--igc-grey);
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: var(--igc-light);
-}
-
+/* Navbar & Footer */
 .navi-link {
     color: var(--igc-grey);
 }
@@ -249,7 +259,7 @@ figure {
     color: var(--igc-light);
 }
 
-.footer-section{
+.footer-section {
     /* width: 100%; */
     overflow-x: hidden !important;
     min-height: 350px;
