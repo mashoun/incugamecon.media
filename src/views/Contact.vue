@@ -24,6 +24,7 @@
             <div class="col-12 col-lg-8">
                 <aside class="bg-light rounded p-3 d-flex flex-column gap-2">
                     <input v-model.trim="form.name" type="text" id="name" class="form-control" placeholder="Name">
+                    <input v-model.trim="form.email" type="text" id="name" class="form-control" placeholder="Email">
                     <input v-model.trim="form.subject" type="text" id="name" class="form-control" placeholder="Subject">
                     <textarea v-model.trim="form.message" name="message" id="message" class="form-control" placeholder="Type your message.." rows="8"></textarea>
                     <a :href="sendMessage" class="btn btn-dark">Submit</a>
@@ -41,13 +42,14 @@ export default {
             form:{
                 name:'',
                 subject:'',
-                message:''
+                message:'',
+                email:''
             }
         }
     },
     computed:{
         sendMessage() {
-            return `mailto:${this.store.contact.email}?subject=${encodeURIComponent(this.form.subject)}&body=${encodeURIComponent('Name: ' + this.form.name + ' - \n\n' + this.form.message)}`
+            return `mailto:${this.store.contact.email}?subject=${encodeURIComponent(this.form.subject)}&body=${encodeURIComponent('Name: ' + this.form.name + ' - '+ this.form.email +' \n\n' + this.form.message)}`
         }
     }
 }

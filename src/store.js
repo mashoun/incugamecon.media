@@ -1,5 +1,5 @@
 export default {
-    version: '1.1.1',
+    version: '1.2',
 
     logo: {
         src: '/logo.png',
@@ -49,7 +49,8 @@ export default {
             `By merging deep market insights and intellectual property expertise with cutting-edge technology, we uphold values of integrity, discipline, and transparency.`,
             `These principles drive us to foster open dialogue and strive for excellence, breaking through creative barriers and paving the way for games that resonate globally.`,
             `Join us at IncuGameCon and make a lasting impact in the gaming world.`
-        ]
+        ],
+        description: `Welcome to IncuGameCon, where we guide enthusiasts, developers, and investors through the dynamic landscape of the gaming industry with state-of-the-art consulting and development services. Our mission is to transform innovative ideas into engaging games, positioning ourselves as your premier partner in gaming collaboration. By merging deep market insights and intellectual property expertise with cutting-edge technology, we uphold values of integrity, discipline, and transparency. These principles drive us to foster open dialogue and strive for excellence, breaking through creative barriers and paving the way for games that resonate globally. Join us at IncuGameCon and make a lasting impact in the gaming world.`,
 
     },
 
