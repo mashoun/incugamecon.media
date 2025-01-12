@@ -18,7 +18,7 @@
                     <p class="fs-5 font-inter text-igc-grey">{{ node.description }}</p>
                 </aside>
             </div>
-            <hr class="my-5 text-light order-lg-3">
+            <!-- <hr class="my-5 text-light order-lg-3"> -->
         </div>
     </section>
 </template>

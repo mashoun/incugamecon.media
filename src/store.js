@@ -9,7 +9,7 @@ export default {
     title: 'IncuGameCon',
 
     contact: {
-        email: 'info@incugamecon.media',
+        email: 'support@incugamecon.media',
         linkedin: 'https://www.linkedin.com/company/incugamecon/',
         instagram: 'https://www.instagram.com/incugamecon.media/'
     },
@@ -27,7 +27,7 @@ export default {
         },
         {
             name: 'Services',
-            url: '/services',
+            url: location.pathname === '/' ? '/#services' : '/services',
             isActive: false
         },
         {

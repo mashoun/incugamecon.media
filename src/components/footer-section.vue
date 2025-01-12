@@ -1,5 +1,5 @@
 <template>
-    <section class="px-3 py-5 footer-section" style="min-height: 300px;">
+    <section class="px-3 py-2 footer-section" style="min-height: 200px;">
         <section class="container-fluid">
             <!-- <div class="row">
                 <div class="col-12">
@@ -19,7 +19,7 @@
                     </section>
                 </div>
             </div> -->
-            <div class="row justify-content-center g-3">
+            <div class="row justify-content-center align-items-center g-3">
                 <div class="col-12 col-lg-3">
                     <div class="d-flex justify-content-center mb-3 mb-lg-0">
                         <figure class="ratio ratio-1x1" style="width: 120px;">

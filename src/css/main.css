@@ -263,7 +263,7 @@ figure {
     /* width: 100%; */
     overflow-x: hidden !important;
     min-height: 350px;
-    background-color: var(--igc-100);
+    background-color: #fffefc10;
     display: flex;
     justify-content: center;
     align-items: center;
