@@ -14,7 +14,7 @@
                 </div>
                 <div class="col-8 col-md-6 col-lg-4">
                     <aside>
-                        <swiper-container id="team-swiper" effect="cards" grab-cursor="true" loop="true" autoplay-delay="1500" autoplay-disable-on-interaction="false">
+                        <swiper-container id="team-swiper" effect="cards" grab-cursor="true" autoplay-delay="1500" autoplay-disable-on-interaction="false">
                             <swiper-slide v-for="node in store.team">
                                 <section class="p-3 py-5 bg-igc-light d-flex justify-content-between align-items-center gap-3 rounded-md">
                                     <div class="ratio ratio-1x1" style="width: 200px;">
