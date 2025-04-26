@@ -103,7 +103,7 @@ export default {
         {
             id: 'RGe9eij3',
             icon: '/services/rocket.png',
-            title: 'Stratigic Marketing and Launch Support',
+            title: 'Strategic Marketing and Launch Support',
             offerings: [
                 'Market research & analysis to identify target demographics and optimal launch strategies.',
                 'Branding & promotional campaigns to build anticipation and awareness.',
